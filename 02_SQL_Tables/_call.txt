@@ -5,6 +5,10 @@ source 02_SQL_Tables/02d_db_table_SQL.sql
 
 \! cls
 
+/* Kommentar 1 */
+#  Kommentar 2
+-- Kommentar 3
+
 /* Datenbanken auf Server anzeigen */
 SHOW DATABASES;
 
