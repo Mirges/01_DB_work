@@ -2,3 +2,35 @@ source 02_SQL_Tables/02a_db_table_SQL.sql
 source 02_SQL_Tables/02b_db_table_SQL.sql
 source 02_SQL_Tables/02c_db_table_SQL.sql
 source 02_SQL_Tables/02d_db_table_SQL.sql
+
+\! cls
+
+/* Datenbanken auf Server anzeigen */
+SHOW DATABASES;
+
+/* DB boo löschen, falls vorhanden*/
+DROP DATABASE;
+DROP DATABASE IF EXISTS boo;
+
+/* DB boo anlegen, falls noch nicht vorhanden*/
+CREATE DATABASE;
+CREATE DATABASE IF NOT EXISTS boo;
+
+/* Tabelle anlegen */
+CREATE TABLE test();
+
+/* Struktur der Tabelle anzeigen */
+DESCRIBE test;
+
+/* Alle Tabellen in der DB anzeigen */
+SHOW TABLES;
+SHOW TABLES FROM mysql;
+
+/* ----- Daten ------- */
+INSERT INTO test(name,age) VALUES("Max", 35);
+
+/* ---- Inhalte der Tabelle anzeigen ---- */
+SELECT * FROM test;
+
+/* DB auswählen */
+USE boo;
