@@ -1,5 +1,5 @@
 # Vorbereitung SELECT 
-! cls
+\! cls
 
 DROP TABLE IF EXISTS boo.customers;
 
