@@ -8,5 +8,5 @@ SELECT
 FROM boo.customers
 -- ORDER BY Age ASC
 ORDER BY Age DESC
-LIMIT 20
+LIMIT 20, 40
 ;
